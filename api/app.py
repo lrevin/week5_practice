@@ -18,6 +18,7 @@ PROJECTS = [
     {'title':'캡스톤 팀원 모집', 'category':'web', 'description':'관심 분야와 기술에 맞는 팀원을 찾습니다.'},
     {'title':'실내 공기질 모니터', 'category':'iot', 'description':'센서로 교실의 온도와 공기질을 확인합니다.'},
     {'title':'분리배출 안내', 'category':'ai', 'description':'생활 폐기물의 분리배출 방법을 안내합니다.'},
+    {'title':'학식 메뉴 알림', 'category':'web', 'description':'오늘의 학생식당 메뉴를 확인하고 알림을 받습니다.'},
 ]
 
 @app.get('/api/projects')
